@@ -10,4 +10,4 @@ fullName = fileName + '.' + fileType
 print("Downloading...")
 os.chdir(path)
 urllib.request.urlretrieve(url, fullName)
-print("Downloaded succesfully in" + path + "as" + fullName)
+print("Downloaded succesfully in " + path + " as " + fullName)
