@@ -6,11 +6,11 @@ def selectFile():
     path = instance.createDirectorySelector()
     return path
 
-instance = IDMGui("gav")
+instance = IDMGui("IDM")
 
-instance.print("kiram dahanet", w=20, h=3)
-input = instance.createInputField("erfan:")
-instance.setPosition(input,x=100,y=200)
+instance.print("Enter Your URL: ", w=20, h=3)
+input = instance.createInputField()
+instance.setPosition(input,x=200,y=20)
 
 button1 = instance.createButton(selectFile, text="...")
 instance.setPosition(button1,x=100,y=50)
